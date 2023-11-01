@@ -71,7 +71,7 @@ def insert_by_table():
             # print("\n \n \n ", visual_description)   
             # print("output \n \n \n", output)  
             file_path = "cookie.txt"  # Replace with the actual file path
-            prompt = f' " minimalist and without background image with this description: {visual_description}" '
+            prompt = f' " minimalist  pixelart style and without background image with this description: {visual_description}" '
             # print("prompt \n ",prompt)
             line_exists_in_file(id,"visited.txt")
             if(line_exists_in_file(id,"visited.txt") == False):
